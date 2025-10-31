@@ -93,16 +93,16 @@
   }
 
   .nav-menu{
-    padding: 30px;
+    padding: 10px;
   }
 
   .nav-menu .logo img{
     width: 90px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .menu-icon{
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .nav-links{
@@ -141,7 +141,7 @@
 
   .nav-menu{
     width: 100%;
-    height: auto;
+    height: 20%;
     padding: 0 2rem;
   }
 
@@ -152,7 +152,7 @@
   .nav-links{
     display: flex;
     right: 0;
-    background-color: inherit;
+    background-color: transparent;
     position: static;
     width: auto;
     height: auto;
@@ -179,4 +179,7 @@
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { 
+
+
+}
