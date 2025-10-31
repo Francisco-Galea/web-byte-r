@@ -1,0 +1,21 @@
+<nav class="nav-menu">
+    <a class="logo" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <img src="img/logo.png" alt="logo Byte-R">
+    </a>
+    <div class="nav-links open" [class.open]="isMenuOpen">
+        <ul>
+            <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Inicio</a></li>
+            <li><a routerLink="/projects" routerLinkActive="active">Nuestros trabajos</a></li>
+            <li><a routerLink="/about-us" routerLinkActive="active">Sobre nosotros</a></li>
+            <li><a routerLink="/contact" routerLinkActive="active">Contactanos</a></li>
+        </ul>
+    </div>
+    <div class="menu-icon" [class.open]="isMenuOpen">
+        <a (click)="displayMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+</nav>
+
