@@ -1,9 +1,12 @@
 import { Component, signal } from '@angular/core';
 import { RouterLink, RouterLinkActive } from "@angular/router";
+import {NgIcon, provideIcons} from '@ng-icons/core';
+import { monoArrowRight } from '@ng-icons/mono-icons';
 
 @Component({
   selector: 'app-main',
-  imports: [RouterLink, RouterLinkActive],
+  imports: [RouterLink, RouterLinkActive, NgIcon], 
+          viewProviders: [provideIcons({monoArrowRight})],
   templateUrl: './main.html',
   styleUrl: './main.css',
 })
